@@ -1,0 +1,42 @@
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.firstColumn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.secondColumn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.row {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.column {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin-top: 30px;
+}
+
